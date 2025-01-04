@@ -1,0 +1,10 @@
+torch
+torch-geometric
+transformers
+rdkit
+fastapi
+uvicorn
+pandas
+scikit-learn
+matplotlib
+pytdc
