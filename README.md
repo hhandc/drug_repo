@@ -20,7 +20,7 @@ It generates a **ranked list of drugs** based on their **predicted binding affin
 - Processes drug-target interaction data from **PyTDC (DAVIS dataset)**.
 - Utilizes a **Random Forest model** to predict drug binding affinity to **amyloid beta**.
 
-##**2. Data Analysis and Visualization**
+## **2. Data Analysis and Visualization**
 - **Statistical Summary**: Provides mean, median, min/max, and standard deviation of predicted scores.
 - **Top Drug Candidates**: Identifies and ranks the top-scoring drugs for **amyloid beta binding**.
 - **Visualization**:
@@ -33,7 +33,7 @@ It generates a **ranked list of drugs** based on their **predicted binding affin
 
 ## **4. Output Data for Further Analysis**
 - Saves results as **drug_repurposing_results.csv**, containing:
-  - **Drug Name**
+  - **Drug ID**
   - **Molecular Formula**
   - **SMILES Representation**
   - **Predicted Binding Score**
