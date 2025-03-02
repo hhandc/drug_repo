@@ -27,14 +27,9 @@ It generates a **ranked list of drugs** based on their **predicted binding affin
   - **Histogram of predicted scores** to show distribution.
   - **Bar chart of top drugs** to highlight potential candidates.
 
-## **3. Drug Identification and Chemical Properties**
-- **Molecular Formula Extraction**: Converts SMILES to **molecular formulas** using RDKit.
-- **Drug Name Retrieval**: Searches **PubChem** for the **IUPAC name** of each compound.
-
-## **4. Output Data for Further Analysis**
+## **3. Output Data for Further Analysis**
 - Saves results as **drug_repurposing_results.csv**, containing:
   - **Drug ID**
-  - **Molecular Formula**
   - **SMILES Representation**
   - **Predicted Binding Score**
 - Enables **easy integration** with experimental validation pipelines.
